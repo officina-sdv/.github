@@ -1,5 +1,12 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/officina-sdv/.github/main/brand/officina-lockup-dark.svg">
+    <img src="https://raw.githubusercontent.com/officina-sdv/.github/main/brand/officina-lockup.svg" alt="Officina SDV" width="360">
+  </picture>
+</p>
+
 # Officina SDV
 
 **The open-source, on-premises software factory for the Software-Defined Vehicle.**

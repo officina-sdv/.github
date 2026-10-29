@@ -1,0 +1,12 @@
+<!-- SPDX-FileCopyrightText: 2026 The Officina SDV Authors -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -6.5 100 100" width="256" height="256" role="img" aria-label="Officina SDV">
+  <title>Officina SDV</title>
+  <g fill="none" stroke="#C8102E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M33 54 H87"/>
+    <path d="M24 45 V36 L36 24 H42.5 M53.5 24 H66 L89.64 47.64"/>
+    <circle cx="24" cy="54" r="9"/>
+    <circle cx="96" cy="54" r="9"/>
+    <circle cx="48" cy="24" r="5.5"/>
+  </g>
+</svg>
