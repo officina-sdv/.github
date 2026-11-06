@@ -1,0 +1,153 @@
+<!-- SPDX-FileCopyrightText: 2026 The Officina SDV Authors -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 968" width="1000" height="968" role="img" aria-labelledby="t d">
+<title id="t">Officina SDV platform layers</title><desc id="d">Entry, core, mods, infrastructure and targets, from top to bottom.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e6edf3"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52b8bd"/></marker></defs>
+<rect x="0" y="0" width="1000" height="968" rx="8" fill="#0d1117"/>
+<rect x="20" y="22" width="14" height="14" rx="3" fill="#12302f" stroke="#52b8bd" stroke-width="2"/>
+<text x="40" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">Officina core</text>
+<rect x="153.36" y="22" width="14" height="14" rx="3" fill="#16293f" stroke="#74a9ea" stroke-width="2"/>
+<text x="173.36" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">S-CORE</text>
+<rect x="239.68" y="22" width="14" height="14" rx="3" fill="#3a1b1e" stroke="#f0737a" stroke-width="2"/>
+<text x="259.68" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">QNX</text>
+<rect x="305.84000000000003" y="22" width="14" height="14" rx="3" fill="#16301a" stroke="#73c477" stroke-width="2"/>
+<text x="325.84000000000003" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">Android Automotive</text>
+<rect x="472.80000000000007" y="22" width="14" height="14" rx="3" fill="#2a2140" stroke="#ad90ea" stroke-width="2"/>
+<text x="492.80000000000007" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">X-Verse / simulation</text>
+<rect x="653.2" y="22" width="14" height="14" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text x="673.2" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">Open-source infrastructure</text>
+<rect x="20" y="64" width="960" height="128" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+<text x="36" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start">Entry</text>
+<text x="36" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">One front door per person</text>
+<path d="M200,64 V192" stroke="#30363d" stroke-width="1.2"/>
+<rect x="214" y="78" width="170.0592" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="225" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">GitHub pull request</text>
+<text x="225" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">one required check per rung</text>
+<rect x="392.05920000000003" y="78" width="202.5168" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="403.05920000000003" y="97" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina CLI</text>
+<text x="403.05920000000003" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">submit, logs, scenarios, evidence</text>
+<rect x="602.576" y="78" width="175.46880000000002" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="613.576" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-lobby</text>
+<text x="613.576" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">web portal, one page per mod</text>
+<rect x="214" y="132" width="289.0704" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="225" y="151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Live run view</text>
+<text x="225" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">cluster, IVI and world side by side, live verdict</text>
+<path d="M500,196 V222" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="512" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">every job goes through the switchboard</text>
+<rect x="20" y="226" width="960" height="182" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+<text x="36" y="254" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start">Core</text>
+<text x="36" y="272" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Receives, authorises,</text>
+<text x="36" y="287" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">queues, runs, records</text>
+<path d="M200,226 V408" stroke="#30363d" stroke-width="1.2"/>
+<rect x="214" y="240" width="262.0224" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="225" y="259" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-relay</text>
+<text x="225" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">GitHub ⇄ cluster, outbound only, merge queue</text>
+<rect x="484.0224" y="240" width="240.38400000000001" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="495.0224" y="259" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-switchboard</text>
+<text x="495.0224" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">API, identity, roles, speculative gating</text>
+<rect x="732.4064000000001" y="240" width="191.44000000000003" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="743.4064000000001" y="259" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Argo Events + Workflows</text>
+<text x="743.4064000000001" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">the only job engine</text>
+<rect x="214" y="294" width="191.6976" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="225" y="313" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Kueue</text>
+<text x="225" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">quotas, licence-aware admission</text>
+<rect x="413.69759999999997" y="294" width="147.76" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="424.69759999999997" y="313" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-patchbay</text>
+<text x="424.69759999999997" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">turns mods on and off</text>
+<rect x="569.4576" y="294" width="202.5168" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="580.4576" y="313" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-ledger</text>
+<text x="580.4576" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">write-once evidence, attestations</text>
+<rect x="214" y="348" width="213.336" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="225" y="367" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-mirror · stash</text>
+<text x="225" y="384" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">mirrors, remote cache and execution</text>
+<rect x="435.336" y="348" width="202.5168" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="446.336" y="367" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-radar</text>
+<text x="446.336" y="384" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">metrics, logs, traces, dashboards</text>
+<rect x="645.8528" y="348" width="202.5168" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="656.8528" y="367" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-deck</text>
+<text x="656.8528" y="384" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">browser workspaces, devcontainers</text>
+<path d="M500,412 V438" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="512" y="430" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">the workflow comes from a mod's template</text>
+<rect x="20" y="442" width="960" height="182" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+<text x="36" y="470" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start">Mods</text>
+<text x="36" y="488" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">What the factory can do,</text>
+<text x="36" y="503" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">one plug-in per stack</text>
+<path d="M200,442 V624" stroke="#30363d" stroke-width="1.2"/>
+<rect x="214" y="456" width="207.9264" height="46" rx="4" fill="#16293f" stroke="#74a9ea" stroke-width="1.5"/>
+<text x="225" y="475" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-forge</text>
+<text x="225" y="492" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">S-CORE build, integration, release</text>
+<rect x="429.9264" y="456" width="186.288" height="46" rx="4" fill="#3a1b1e" stroke="#f0737a" stroke-width="1.5"/>
+<text x="440.9264" y="475" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-forge-qnx</text>
+<text x="440.9264" y="492" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">QNX images, hypervisor configs</text>
+<rect x="624.2144000000001" y="456" width="202.5168" height="46" rx="4" fill="#16301a" stroke="#73c477" stroke-width="1.5"/>
+<text x="635.2144000000001" y="475" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-forge-aaos</text>
+<text x="635.2144000000001" y="492" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Android Automotive build, CTS/VTS</text>
+<rect x="214" y="510" width="240.38400000000001" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="225" y="529" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-shells</text>
+<text x="225" y="546" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">virtual ECUs: KubeVirt, Cuttlefish, QEMU</text>
+<rect x="462.384" y="510" width="197.1072" height="46" rx="4" fill="#2a2140" stroke="#ad90ea" stroke-width="1.5"/>
+<text x="473.384" y="529" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Simulation</text>
+<text x="473.384" y="546" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">X-Verse, CARLA, scenario runners</text>
+<rect x="667.4912" y="510" width="240.38400000000001" height="46" rx="4" fill="#2a2140" stroke="#ad90ea" stroke-width="1.5"/>
+<text x="678.4912" y="529" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-jack-in</text>
+<text x="678.4912" y="546" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Zenoh + SIL Kit, joins virtual and bench</text>
+<rect x="214" y="564" width="240.38400000000001" height="46" rx="4" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="225" y="583" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-bench</text>
+<text x="225" y="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">bench leasing, flashing, fault injection</text>
+<rect x="462.384" y="564" width="175.46880000000002" height="46" rx="4" fill="#3a1b1e" stroke="#f0737a" stroke-width="1.5"/>
+<text x="473.384" y="583" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">officina-showroom</text>
+<text x="473.384" y="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">the reference cockpit sample</text>
+<path d="M500,628 V654" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="512" y="646" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">runs on</text>
+<rect x="20" y="658" width="960" height="128" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+<text x="36" y="686" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start">Infrastructure</text>
+<text x="36" y="704" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">On-premises, open APIs</text>
+<text x="36" y="719" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">only</text>
+<path d="M200,658 V786" stroke="#30363d" stroke-width="1.2"/>
+<rect x="214" y="672" width="186.288" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="225" y="691" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Kubernetes</text>
+<text x="225" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">RKE2 or any conformant cluster</text>
+<rect x="408.288" y="672" width="169.60000000000002" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="419.288" y="691" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Cilium + Gateway API</text>
+<text x="419.288" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">network and ingress</text>
+<rect x="585.888" y="672" width="126.78240000000001" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="596.888" y="691" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Rook-Ceph</text>
+<text x="596.888" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">S3 with object lock</text>
+<rect x="720.6704" y="672" width="94.32480000000001" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="731.6704" y="691" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Harbor</text>
+<text x="731.6704" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">signed images</text>
+<rect x="822.9952" y="672" width="118.64000000000001" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="833.9952" y="691" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">OpenBao + ESO</text>
+<text x="833.9952" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">secrets and PKI</text>
+<rect x="214" y="726" width="99.73440000000001" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="225" y="745" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Keycloak</text>
+<text x="225" y="762" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">identity, OIDC</text>
+<rect x="321.7344" y="726" width="83.5056" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="332.7344" y="745" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">KubeVirt</text>
+<text x="332.7344" y="762" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">VMs as pods</text>
+<rect x="413.24" y="726" width="180.8784" height="46" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="424.24" y="745" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Node pools</text>
+<text x="424.24" y="762" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">build · shells · sim · rt-hil</text>
+<path d="M500,790 V816" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="512" y="808" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">starts and controls</text>
+<rect x="20" y="820" width="960" height="128" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+<text x="36" y="848" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start">Targets</text>
+<text x="36" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Where the software under</text>
+<text x="36" y="881" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">test runs</text>
+<path d="M200,820 V948" stroke="#30363d" stroke-width="1.2"/>
+<rect x="214" y="834" width="175.46880000000002" height="46" rx="4" fill="#16301a" stroke="#73c477" stroke-width="1.5"/>
+<text x="225" y="853" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Cuttlefish</text>
+<text x="225" y="870" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Android Automotive, multi-VM</text>
+<rect x="397.4688" y="834" width="104.08000000000001" height="46" rx="4" fill="#3a1b1e" stroke="#f0737a" stroke-width="1.5"/>
+<text x="408.4688" y="853" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">QNX in QEMU</text>
+<text x="408.4688" y="870" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">virtual ECU</text>
+<rect x="509.5488" y="834" width="213.28000000000003" height="46" rx="4" fill="#3a1b1e" stroke="#f0737a" stroke-width="1.5"/>
+<text x="520.5488" y="853" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">QNX Hypervisor in QEMU/KVM</text>
+<text x="520.5488" y="870" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">host + guests, virtual</text>
+<rect x="730.8288" y="834" width="133.20000000000002" height="46" rx="4" fill="#2a2140" stroke="#ad90ea" stroke-width="1.5"/>
+<text x="741.8288" y="853" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">X-Verse + CARLA</text>
+<text x="741.8288" y="870" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">the simulated world</text>
+<rect x="214" y="888" width="191.6976" height="46" rx="4" fill="#3a1b1e" stroke="#f0737a" stroke-width="1.5"/>
+<text x="225" y="907" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="start">Bench boards</text>
+<text x="225" y="924" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">physical ECUs on a leased bench</text>
+</svg>

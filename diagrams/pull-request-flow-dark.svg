@@ -1,0 +1,90 @@
+<!-- SPDX-FileCopyrightText: 2026 The Officina SDV Authors -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-labelledby="t d">
+<title id="t">What a pull request goes through</title><desc id="d">A pull request goes through the relay and the switchboard to Argo, runs on rungs R0 to R4, and every result goes to the write-once ledger before the required check is set.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e6edf3"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52b8bd"/></marker></defs>
+<rect x="0" y="0" width="1000" height="520" rx="8" fill="#0d1117"/>
+<rect x="18.0" y="24" width="214" height="56" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="125.0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3" text-anchor="middle">Pull request</text>
+<text x="125.0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">on GitHub</text>
+<path d="M234.0,52 H266.0" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="268.0" y="24" width="214" height="56" rx="5" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="375.0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3" text-anchor="middle">officina-relay</text>
+<text x="375.0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">outbound only</text>
+<path d="M484.0,52 H516.0" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="518.0" y="24" width="214" height="56" rx="5" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="625.0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3" text-anchor="middle">officina-switchboard</text>
+<text x="625.0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">identity + role check</text>
+<path d="M734.0,52 H766.0" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="768.0" y="24" width="214" height="56" rx="5" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="875.0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3" text-anchor="middle">Argo + Kueue</text>
+<text x="875.0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">workflow, quotas, licences</text>
+<path d="M875.0,80 V108 H108.0 " fill="none" stroke="#e6edf3" stroke-width="1.6"/>
+<path d="M875.0,108 H892.0" fill="none" stroke="#e6edf3" stroke-width="1.6"/>
+<text x="410.0" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">a scenario names a rung, not a machine: the same test runs on a laptop, in the lab or on a bench</text>
+<path d="M108.0,108 V128" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="16.0" y="130" width="184" height="180" rx="5" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="28.0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#52b8bd" text-anchor="start">R0</text>
+<text x="28.0" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e6edf3" text-anchor="start">Build and unit</text>
+<text x="28.0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Build pods: S-CORE, QNX</text>
+<text x="28.0" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">and Android unit tests</text>
+<path d="M28.0,244 H188.0" stroke="#30363d" stroke-width="1"/>
+<text x="28.0" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="start">every push</text>
+<text x="28.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">minutes</text>
+<path d="M108.0,312 V350" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="16.0" y="352" width="968" height="60" rx="6" fill="#12302f" stroke="#52b8bd" stroke-width="2"/>
+<path d="M304.0,108 V128" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="212.0" y="130" width="184" height="180" rx="5" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="224.0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#52b8bd" text-anchor="start">R1</text>
+<text x="224.0" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e6edf3" text-anchor="start">One virtual ECU</text>
+<text x="224.0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">QNX in QEMU, or one Android</text>
+<text x="224.0" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">VM fed by recorded signals</text>
+<path d="M224.0,244 H384.0" stroke="#30363d" stroke-width="1"/>
+<text x="224.0" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="start">every pull request</text>
+<text x="224.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">10–20 min</text>
+<path d="M304.0,312 V350" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="16.0" y="352" width="968" height="60" rx="6" fill="#12302f" stroke="#52b8bd" stroke-width="2"/>
+<path d="M500.0,108 V128" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="408.0" y="130" width="184" height="180" rx="5" fill="#2a2140" stroke="#ad90ea" stroke-width="1.5"/>
+<text x="420.0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ad90ea" text-anchor="start">R2</text>
+<text x="420.0" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e6edf3" text-anchor="start">Software in the loop</text>
+<text x="420.0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">X-Verse + virtual ECUs</text>
+<text x="420.0" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">+ Cuttlefish</text>
+<path d="M420.0,244 H580.0" stroke="#30363d" stroke-width="1"/>
+<text x="420.0" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="start">safety-path changes</text>
+<text x="420.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">15–30 min</text>
+<path d="M500.0,312 V350" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="16.0" y="352" width="968" height="60" rx="6" fill="#12302f" stroke="#52b8bd" stroke-width="2"/>
+<path d="M696.0,108 V128" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="604.0" y="130" width="184" height="180" rx="5" fill="#12302f" stroke="#52b8bd" stroke-width="1.5"/>
+<text x="616.0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#52b8bd" text-anchor="start">R3</text>
+<text x="616.0" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e6edf3" text-anchor="start">Mixed criticality</text>
+<text x="616.0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Multi-VM targets; hypervisor</text>
+<text x="616.0" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">guests forced to fail</text>
+<path d="M616.0,244 H776.0" stroke="#30363d" stroke-width="1"/>
+<text x="616.0" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="start">safety changes, nightly</text>
+<text x="616.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">20–40 min</text>
+<path d="M696.0,312 V350" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="16.0" y="352" width="968" height="60" rx="6" fill="#12302f" stroke="#52b8bd" stroke-width="2"/>
+<path d="M892.0,108 V128" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="800.0" y="130" width="184" height="180" rx="5" fill="#3a1b1e" stroke="#f0737a" stroke-width="1.5"/>
+<text x="812.0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0737a" text-anchor="start">R4</text>
+<text x="812.0" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e6edf3" text-anchor="start">Hardware in the loop</text>
+<text x="812.0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">Bench board + virtual</text>
+<text x="812.0" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="start">targets on the bench network</text>
+<path d="M812.0,244 H972.0" stroke="#30363d" stroke-width="1"/>
+<text x="812.0" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e6edf3" text-anchor="start">merge candidates, release</text>
+<text x="812.0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="start">30–60 min</text>
+<path d="M892.0,312 V350" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="16.0" y="352" width="968" height="60" rx="6" fill="#12302f" stroke="#52b8bd" stroke-width="2"/>
+<text x="500.0" y="377" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3" text-anchor="middle">officina-ledger · write-once evidence</text>
+<text x="500.0" y="398" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">requirement → scenario → rung and virtual-ECU level → result → artefact digests, with an attestation per step</text>
+<path d="M500.0,414 V440 H320.0 V452" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M500.0,440 H680.0 V452" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="170.0" y="454" width="300" height="50" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="320.0" y="476" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle">Required check on the pull request</text>
+<text x="320.0" y="493" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">red blocks the merge</text>
+<rect x="530.0" y="454" width="300" height="50" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<text x="680.0" y="476" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle">Merge queue</text>
+<text x="680.0" y="493" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8d96a0" text-anchor="middle">only what passed gets in</text>
+</svg>

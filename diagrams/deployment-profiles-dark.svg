@@ -1,0 +1,44 @@
+<!-- SPDX-FileCopyrightText: 2026 The Officina SDV Authors -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d">
+<title id="t">Deployment profiles</title><desc id="d">One code base, four profiles: laptop, small lab, data centre and fleet.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e6edf3"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52b8bd"/></marker></defs>
+<rect x="0" y="0" width="1000" height="300" rx="8" fill="#0d1117"/>
+<rect x="20" y="24" width="226" height="210" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<rect x="20" y="24" width="226" height="5" rx="2" fill="#52b8bd" fill-opacity="0.35"/>
+<text x="36" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#8d96a0" text-anchor="start">FIRST VALIDATION</text>
+<text x="36" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="start">Laptop</text>
+<text x="36" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• kind: 1 control plane + 2 workers</text>
+<text x="36" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• local build cache</text>
+<text x="36" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• one bench board on the desk</text>
+<text x="36" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• proves function, not availability</text>
+<path d="M248,129 H262" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="264" y="24" width="226" height="210" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<rect x="264" y="24" width="226" height="5" rx="2" fill="#52b8bd" fill-opacity="0.55"/>
+<text x="280" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#8d96a0" text-anchor="start">3 SERVERS</text>
+<text x="280" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="start">Small lab</text>
+<text x="280" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• RKE2 on 3 nodes, etcd quorum</text>
+<text x="280" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• Ceph 3× replication, object lock</text>
+<text x="280" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• shared, labelled node pools</text>
+<text x="280" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• bench PC as an rt-hil worker</text>
+<path d="M492,129 H506" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="508" y="24" width="226" height="210" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<rect x="508" y="24" width="226" height="5" rx="2" fill="#52b8bd" fill-opacity="0.75"/>
+<text x="524" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#8d96a0" text-anchor="start">PRODUCTION CLUSTER</text>
+<text x="524" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="start">Data centre</text>
+<text x="524" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• dedicated build, RBE, sim pools</text>
+<text x="524" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• Buildbarn on Ceph</text>
+<text x="524" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• Kueue cohorts per tenant</text>
+<text x="524" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• backups to a second site</text>
+<path d="M736,129 H750" fill="none" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="752" y="24" width="226" height="210" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<rect x="752" y="24" width="226" height="5" rx="2" fill="#52b8bd" fill-opacity="0.95"/>
+<text x="768" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#8d96a0" text-anchor="start">MANY SITES</text>
+<text x="768" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="start">Fleet</text>
+<text x="768" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• central ledger and registry</text>
+<text x="768" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• bench sites as peers</text>
+<text x="768" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• supplier sites with own installs</text>
+<text x="768" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">• air-gapped sites via signed bundles</text>
+<path d="M40,262 H960" fill="none" stroke="#52b8bd" stroke-width="2" marker-end="url(#b)"/>
+<text x="500.0" y="286" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8d96a0" text-anchor="middle">same scripts, same tests, same scenarios: a site is a profile, capacity is nodes, benches and sites</text>
+</svg>
