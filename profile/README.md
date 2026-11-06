@@ -170,7 +170,3 @@ If your organisation builds on Eclipse S-CORE or X-Verse, Officina SDV lets you 
 - **join** the steering of the roadmap and governance.
 
 Start a conversation in [GitHub Discussions](https://github.com/officina-sdv/officina-sdv/discussions). Report bugs in [Issues](https://github.com/officina-sdv/officina-sdv/issues). Report security vulnerabilities privately, as described in the repository's `SECURITY.md`.
-
----
-
-<sub>Officina SDV is an independent open-source project. It is not affiliated with or endorsed by the Eclipse Foundation, the Eclipse S-CORE project, the X-Verse project, Google, Accenture or the Horizon SDV project. QNX software and licences are not included; building QNX targets requires a QNX SDP licence from BlackBerry QNX. Android and Android Automotive are trademarks of Google LLC. All product names and trademarks belong to their respective owners.</sub>
